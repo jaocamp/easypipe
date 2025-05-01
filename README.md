@@ -1,4 +1,6 @@
 ![Build](https://github.com/jaocamp/easypipe/actions/workflows/ci.yml/badge.svg)
+![Starter Coverage](https://codecov.io/gh/jaocamp/easypipe/branch/main/graph/badge.svg?flag=starter)
+![Examples Coverage](https://codecov.io/gh/jaocamp/easypipe/branch/main/graph/badge.svg?flag=examples)
 ![License](https://img.shields.io/github/license/jaocamp/easypipe)
 
 # EasyPipe
@@ -83,6 +85,6 @@ See [CONTRIBUTING.md](./CONTRIBUTING.md) for guidelines.
 
 ## 👤 Author
 
-Built and maintained by [João Rafael Campos](https://github.com/joaorafaelm).
+Built and maintained by [João Campos](https://github.com/jaocamp).
 
 Feel free to reach out or star the repo if you find it useful! ⭐

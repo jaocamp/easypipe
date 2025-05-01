@@ -8,6 +8,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ---
 
 ## [Unreleased]
+### Added
+- Configured JaCoCo for code coverage reporting in both `easypipe-starter` and `easypipe-examples`.
+- Added GitHub Actions step to generate and upload coverage reports to Codecov with module-specific flags (`starter`, `examples`).
+- Integrated badges in `README.md` to display separate coverage metrics per module.
+
+## [Unreleased]
 ### Changed
 - Disabled `bootJar` task in the `easypipe-starter` module to prevent build errors due to missing main class.
 - Enabled standard `jar` packaging for the starter module.

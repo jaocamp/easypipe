@@ -19,3 +19,20 @@ jobs:
 
       - name: Build with Gradle
         run: ./gradlew clean build
+
+      - name: Run tests and generate coverage for all modules
+        run: ./gradlew jacocoTestReport --no-daemon
+
+      - name: Upload starter coverage to Codecov
+        uses: codecov/codecov-action@v5
+        with:
+          token: ${{ secrets.CODECOV_TOKEN }}
+          flags: starter
+          files: ./easypipe-starter/build/reports/jacoco/test/jacocoTestReport.xml
+
+      - name: Upload examples coverage to Codecov
+        uses: codecov/codecov-action@v5
+        with:
+          token: ${{ secrets.CODECOV_TOKEN }}
+          flags: examples
+          files: ./easypipe-examples/build/reports/jacoco/test/jacocoTestReport.xml
