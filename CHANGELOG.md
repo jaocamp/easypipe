@@ -7,6 +7,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
+## [Unreleased]
+### Changed
+- Disabled `bootJar` task in the `easypipe-starter` module to prevent build errors due to missing main class.
+- Enabled standard `jar` packaging for the starter module.
+
+### Removed
+- Unused DTOs (`Request` / `Response`) from the `easypipe-examples` module after simplification of the controller layer.
+
 ## [0.1.0] - 2025-04-29
 ### Added
 - Initial release of EasyPipe core.
