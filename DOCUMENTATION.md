@@ -15,6 +15,9 @@ A unit of work within a pipeline. Each step can:
 - Optionally support rollback (via `RollbackableStep` interface)
 - Optionally support confirmation (if not auto-confirmed)
 
+### Class Diagram
+![image](https://github.com/user-attachments/assets/7c645bdd-7a12-4267-b94f-6c071163618c)
+
 ---
 
 ## 🔁 Execution Flow
