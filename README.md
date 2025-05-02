@@ -1,6 +1,5 @@
 ![Build](https://github.com/jaocamp/easypipe/actions/workflows/ci.yml/badge.svg)
-![Starter Coverage](https://codecov.io/gh/jaocamp/easypipe/branch/main/graph/badge.svg?flag=starter)
-![Examples Coverage](https://codecov.io/gh/jaocamp/easypipe/branch/main/graph/badge.svg?flag=examples)
+![Starter Coverage](https://codecov.io/gh/jaocamp/easypipe/branch/main/graph/badge.svg)
 ![License](https://img.shields.io/github/license/jaocamp/easypipe)
 
 # EasyPipe
